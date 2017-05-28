@@ -1,0 +1,117 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+ <link href="css/main.css" rel="stylesheet" type="text/css">  
+ <script src="js/jquery-3.2.1.js"></script>
+  <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
+  <script type="text/javascript" src="js/bootstrap.min.js"></script>
+<link href="https://fonts.googleapis.com/css?family=Lora" rel="stylesheet">
+</head>
+<body>
+
+<div class="container col-12">
+  <div class= "row">
+    <div class="col-md-6 col-xs-6"> <img class="logo" src="img/logo.jpg" class="title-logo img-responsive" alt="Logo_a" > </div>
+    <div class="col-md-6 col-xs-6 text-right text-uppercase"> <h1 class="title">Anna Monacelli</h1>
+    <h4>front-end lady</h4> </div>
+	
+  </div>
+  <hr class="horizontal">
+  
+
+    <div class="row">
+      <div class= "col-md-12 text-center"> <img src="img/front_end_developer.jpg" alt="Front_end_developer" class= "_img-responsive front_end_developer"> </div>
+    </div>
+
+
+    <div class="row">
+      <div class="col-md-12"> <h2 class="text-muted">Feautured work</h2></div>
+    </div>
+
+    <div class="row">
+      <div class="col-xs-6 col-md-4 text-center"> 
+	  <picture>
+		  <source media="(min-width: 992px)" srcset="images/html_1-286x160_md.png">
+		  <source media="(min-width: 768px)" srcset="images/html_1-286x160_sm.png">
+		  <img src="images/html_1-286x160_xs.png" alt="HTML" class="img-rounded logos" data-toggle="modal" data-target="#htmlModal">
+		</picture> 
+	  <h3 class="text-uppercase hidden-xs hidden-sm"> Html </h3>
+	  <a href="www.html.com">www.html.com</a>
+	  </div>
+      <div class="col-xs-6 col-md-4 text-center">
+		<picture>
+		  <source media="(min-width: 992px)" srcset="images/css_1-286x160_md.jpg">
+		  <source media="(min-width: 768px)" srcset="images/css_1-286x160_sm.jpg">
+		  <img src="images/css_1-286x160_xs.jpg" alt="CSS" class="img-rounded logos" data-toggle="modal" data-target="#cssModal">
+		</picture> 
+		 <h3 class="text-uppercase hidden-xs hidden-sm"> css </h3>
+		 <a href="www.css.com">www.css.com</a>
+    </div>
+      <div class="col-xs-6 col-md-4 text-center"> 
+	  <picture>
+		  <source media="(min-width: 992px)" srcset="images/javascript_1-286x160_md.jpg">
+		  <source media="(min-width: 768px)" srcset="images/javascript_1-286x160_sm.jpg">
+		  <img src="images/javascript_1-286x160_xs.jpg" alt="JAVASCRIPT" class="img-rounded logos" data-toggle="modal" data-target="#jsModal">
+		</picture> 
+	  <h3 class="text-uppercase hidden-xs hidden-sm"> Js </h3>
+	  <a href="www.js.com">www.js.com</a>
+	  </div>
+    </div>
+  </div>
+  
+  <!-- Modal html -->
+<div class="modal fade" id="htmlModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" id="myModalLabel">Modal for HTML skillset</h4>
+      </div>
+      <div class="modal-body">
+        In this modal will be shown all the skill for HTML markup language
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Modal js -->
+<div class="modal fade" id="jsModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" id="myModalLabel">Modal for JS skillset</h4>
+      </div>
+      <div class="modal-body">
+		In this modal will be shown all the skill for Javascript language
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Modal css -->
+<div class="modal fade" id="cssModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" id="myModalLabel">Modal for CSS skillset</h4>
+      </div>
+      <div class="modal-body">
+ 		In this modal will be shown all the skill for CSS stylesheet
+     </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+  
+</body>
+</html>
